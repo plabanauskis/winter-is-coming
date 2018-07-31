@@ -1,6 +1,6 @@
 ﻿namespace WinterComingGame.Game
 {
-    enum MoveDirection
+    public enum MoveDirection
     {
         TowardsWall = 0,
         Left = 1,

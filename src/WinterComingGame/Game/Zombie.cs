@@ -1,10 +1,10 @@
 ﻿namespace WinterComingGame.Game
 {
-    class Zombie
+    public class Zombie
     {
         private int _lives = 5;
 
-        public Coordinate Location { get; set; }
+        public Coordinate Location { get; private set; }
 
         public void TakeHit() => _lives--;
 

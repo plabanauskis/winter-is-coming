@@ -2,7 +2,7 @@
 
 namespace WinterComingGame.Game
 {
-    struct Coordinate : IEquatable<Coordinate>
+    public struct Coordinate : IEquatable<Coordinate>
     {
         public Coordinate(int x, int y)
         {
